@@ -1,0 +1,14 @@
+Hello, My name is @Model.Name and @Model.Name
+The time is @Model.Today
+And tomorrow is will be @Model.Tomorrow
+
+Some colors: 
+@foreach(var color in @Model.Colors){
+  <text>A color is @color</text>
+}
+
+Some langs:
+
+@foreach(var lang in @Model.Langs){
+  <text>Locale @lang.Key  has a LCID of @lang.Value</text>
+}

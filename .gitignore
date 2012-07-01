@@ -1,0 +1,11 @@
+[Oo]bj/
+[Bb]in/
+*.user
+_ReSharper*
+/TestResults
+*.vspscc
+*.vssscc
+deploy
+deploy/*
+*.suo
+*.cache
